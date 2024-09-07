@@ -33,7 +33,9 @@ module.exports = {
       Features: [
         "features/keymaps",
         "features/bluetooth",
+        "features/split-keyboards",
         "features/combos",
+        "features/leader",
         "features/conditional-layers",
         "features/debouncing",
         "features/displays",
@@ -61,6 +63,7 @@ module.exports = {
         "behaviors/mod-tap",
         "behaviors/mod-morph",
         "behaviors/macros",
+        "behaviors/leader-key",
         "behaviors/key-toggle",
         "behaviors/sticky-key",
         "behaviors/sticky-layer",
@@ -134,6 +137,7 @@ module.exports = {
         "development/tests",
         "development/usb-logging",
         "development/ide-integration",
+        "development/studio-rpc-protocol",
         {
           type: "category",
           label: "Guides",
